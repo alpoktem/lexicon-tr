@@ -1,0 +1,40 @@
+  
+
+
+"başlık_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "1"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    pos = "NN"				// posibles valores: CC, CD, DT, IN, JJ, NN, NP, PP, RB, SYM, UH, VB, VH, VV, WP, formula  (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    dpos = N				// posibles valores: V, N, A, aDV
+    spos = "noun"			//posibles valores: adjective, adverb, auxiliary, conjunction, copula, determiner, foreign_word, formula, interjection, interrogative_pronoun, noun, number, percentage, preposition, pronoun, 
+					//proper_noun, punctuation, relative_pronoun, roman_numeral, verb (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    vncls = ""			//Verbnet ID
+    pbID = ""		//Propbank ID
+    fnID = ""				//Framenet ID
+    onID = ""				//Ontonotes ID  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    nbID =	"headline.01"			//Nombank (FROM nombank V.01 => TO DOWNLOAD)
+    bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+    lemma = "başlık"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     A1 = I				//mapping given in the Propbank corresponding entry
+     A2 = II
+      I = {       //second argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        //case = 
+        ssyntrel = "CLASSIFIER"
+      }
+      II = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        //case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "POSSESSOR"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      
+    }
+  }
+
+
+
+

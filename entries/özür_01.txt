@@ -1,0 +1,26 @@
+"özür_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "2"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "none"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "apology"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "özür"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "GEN"       
+      ssyntrel = "SUBJECT"
+    }
+
+  }
+}

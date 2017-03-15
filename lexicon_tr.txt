@@ -1,0 +1,1401 @@
+"al_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "1"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "bring"
+  vnID = "11.3"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "take"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Bringing"			//The Framenet class to which the unit belongs
+  onID = "take-v.3"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  lemma = "al"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+   A3 = IV
+    I = {				//first argument
+     pos = "NN"
+     case = "NOM"				//for case lggs: German, Polish, Turkish
+     ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"al_VB_02":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "2"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "devour"
+  vnID = "39.4"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "have"			
+  pbID = "03"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Ingestion"			//The Framenet class to which the unit belongs
+  onID = "have-v.7"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "al"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "NOM"
+     ssyntrel = "OBJECT"
+    }
+
+  }
+}
+
+"alan_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "3"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "field-n.3"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "none"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "none"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "alan"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A0 = I				//mapping given in the Propbank corresponding entry
+    A1 = II
+    A2 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "GEN"       
+      ssyntrel = "SUBJECT"     
+    }
+    II = {				//second argument
+      pos = "NN"
+      case = "NOM"
+      ssyntrel = "CLASSIFIER"
+    }
+  }
+}
+
+"bak_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  //In the sentence 18, look means more like take care
+  entryID = "4"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"
+  vnID = "none"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "look"			
+  pbID = "07"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "none"			//The Framenet class to which the unit belongs
+  onID = "look-v.4"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  lemma = "bak"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       //for case lggs: German, Polish, Turkish
+     ssyntrel = "SUBJECT"     //for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"bak_VB_02":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "5"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "rummage"
+  vnID = "35.5"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "look_up"			
+  pbID = "05"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Seeking"			//The Framenet class to which the unit belongs
+  onID = "look-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "bak"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     case = "LOC"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+  
+
+
+"başlık_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "6"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    pos = "NN"				// posibles valores: CC, CD, DT, IN, JJ, NN, NP, PP, RB, SYM, UH, VB, VH, VV, WP, formula  (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    dpos = N				// posibles valores: V, N, A, aDV
+    spos = "noun"			//posibles valores: adjective, adverb, auxiliary, conjunction, copula, determiner, foreign_word, formula, interjection, interrogative_pronoun, noun, number, percentage, preposition, pronoun, 
+					//proper_noun, punctuation, relative_pronoun, roman_numeral, verb (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    vncls = ""			//Verbnet ID
+    pbID = ""		//Propbank ID
+    fnID = ""				//Framenet ID
+    onID = ""				//Ontonotes ID  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    nbID =	"headline.01"			//Nombank (FROM nombank V.01 => TO DOWNLOAD)
+    bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+    lemma = "başlık"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     A1 = I				//mapping given in the Propbank corresponding entry
+     A2 = II
+      I = {       //second argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        //case = 
+        ssyntrel = "CLASSIFIER"
+      }
+      II = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        //case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "POSSESSOR"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      
+    }
+  }
+
+
+
+
+
+"bekle_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "7"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "wish"
+  vnID = "62"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "expect"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Expectation"			//The Framenet class to which the unit belongs
+  onID = "expect-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "bekle"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+
+  }
+}
+
+"bil_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "8"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "consider"
+  vnID = "29.9-1-1"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "know"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Awareness"			//The Framenet class to which the unit belongs
+  onID = "know-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "bil"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"bilgi_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "9"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "information-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "information"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "bilgi"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "NOM"       
+      prep= "ilgili"
+    }
+
+  }
+}
+
+"durum_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "10"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "condition-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "state"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "1"				//... and here, the sense received
+  lemma = "durum"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "NOM"       //for case lggs: German, Polish, Turkish
+      ssyntrel = "SUBJECT"     //for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+      pos = 
+      prep = 
+      case = 
+      finiteness =
+      ssyntrel =
+    }
+    III = {				//third argument
+      pos = 
+      prep = 
+      case =
+      finiteness = 
+      ssyntrel =
+    }
+  }
+}
+
+"çık_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  //e.g. yürüyüşe çıkmak, alışverişe çıkmak
+  entryID = "11"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"
+  vnID = "none"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "go"			
+  pbID = "02"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "none"			//The Framenet class to which the unit belongs
+  onID = "go-v.15"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  lemma = "çık"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A3 = III
+   A4 = III
+    I = {				//first argument
+     pos = "NN"
+     case = "NOM"				//for case lggs: German, Polish, Turkish
+     ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+  
+
+
+"dile_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "12"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    pos = "VB"				// posibles valores: CC, CD, DT, IN, JJ, NN, NP, PP, RB, SYM, UH, VB, VH, VV, WP, formula  (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    dpos = V				// posibles valores: V, N, A, aDV
+    spos = "verb"			//posibles valores: adjective, adverb, auxiliary, conjunction, copula, determiner, foreign_word, formula, interjection, interrogative_pronoun, noun, number, percentage, preposition, pronoun, 
+    vncls = "beg"
+    vnID = "58.2"      //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "beg"     
+    pbID = "01"        //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Request"      //The Framenet class to which the unit belongs
+    onID = "beg-v.1"    //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    lemma = "dile"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     gpID = "1"        //id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+      I = {				//first argument
+        pos = "NN"
+	      dpos = "N"
+	       //prep = 
+	       case = "NOM"				//for case lggs: German, Polish, Turkish
+	     ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+     }
+      II = {				//second argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"
+        ssyntrel = "OBJECT"
+      }
+      III = {				//third argument
+
+    pos = "NN"
+  dpos = "N"
+  //prep = 
+  case = "ABL"
+  ssyntrel = "OBJECT"
+      }
+    }
+  }
+
+
+
+
+
+"dinle_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "13"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "peer"
+  vnID = "30.3"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "listen"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Perception_active"			//The Framenet class to which the unit belongs
+  onID = "listen-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "dinle"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "NOM"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"durum_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "14"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "condition-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "state"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  lemma = "durum"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A0 = I				//mapping given in the Propbank corresponding entry
+    A1 = II
+    A2 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "NOM"       //for case lggs: German, Polish, Turkish
+      ssyntrel = "CLASSIFIER"     //for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+  }
+}
+
+"duy_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "15"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "discover"
+  vnID = "84-1-1"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "hear"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Hear"			//The Framenet class to which the unit belongs
+  onID = "hear-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "duy"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "NOM"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     case = "ABL"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"endişelen_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "16"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    base = "endişe"
+    pbcls = "worry"			
+    pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Emotion_active"			//The Framenet class to which the unit belongs
+    onID = "worry-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+    lemma = "endişelen"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     gpID = "1"				//id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+      I = {				//first argument
+        pos = "NN"
+	      prep = ""
+	      case = 	"NOM"			//for case lggs: German, Polish, Turkish
+	      ssyntrel = 	"SUBJECT"		//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+     }
+    }
+  }
+
+"etkinlik_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "17"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "event-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "event"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "etkinlik"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "NOM"       
+      ssyntrel = "CLASSIFIER"     
+    }
+  }
+}
+
+"git_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  //e.g. yürüyüşe çıkmak, alışverişe çıkmak
+  entryID = "18"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"
+  vnID = "none"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "go"			
+  pbID = "02"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "none"			//The Framenet class to which the unit belongs
+  onID = "go-v.15"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  lemma = "git"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A3 = III
+    I = {				//first argument
+     pos = "NN"
+     case = "NOM"				//for case lggs: German, Polish, Turkish
+     ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"git_VB_02":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "19"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "escape"
+  vnID = "51.1"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "go"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Motion"			//The Framenet class to which the unit belongs
+  onID = "go-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "git"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A1 = I				//mapping given in the Propbank corresponding entry
+   A2 = II
+   A3 = III
+   A4 = IV
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     case = "ABL"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+  
+
+
+"görün_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "20"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    pos = "VB"				// posibles valores: CC, CD, DT, IN, JJ, NN, NP, PP, RB, SYM, UH, VB, VH, VV, WP, formula  (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    dpos = "V"				// posibles valores: V, N, A, aDV
+    spos = "verb"			//posibles valores: adjective, adverb, auxiliary, conjunction, copula, determiner, foreign_word, formula, interjection, interrogative_pronoun, noun, number, percentage, preposition, pronoun, 
+					//proper_noun, punctuation, relative_pronoun, roman_numeral, verb (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    vncls = "seem"
+    vnID = "109-1"     //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "look"      
+    pbID = "02"       //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Appearance"      //The Framenet class to which the unit belongs
+    onID = "look-v.2"   //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    lemma = "görün"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     gpID = "1"       //id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+      I = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      II = {				//second argument
+      	pos = "JJ"
+      	dpos = "A"
+      	//prep = 
+      	ssyntrel = "OBJECT"
+     }
+    }
+  }
+
+
+
+
+
+"haber_ver_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "21"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "advise"
+  vnID = "37.9"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "notify"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Telling"			//The Framenet class to which the unit belongs
+  onID = "notify-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "haber_ver"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"haberler_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "22"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "news-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "news"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "haberler"			//forma sin declinar de la unidad léxica
+  countable = "no"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "NOM"       
+      ssyntrel = "CLASSIFIER"     
+    }
+
+  }
+}
+
+"hisset_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "23"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "see"
+  vnID = "30.1-1"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "feel"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Feeling"			//The Framenet class to which the unit belongs
+  onID = "feel-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "hisset"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "JJ"
+     ssyntrel = "OBJECT"
+    }
+
+  }
+}
+
+"xxx_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "24"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  Eng_tr = "be_interested"
+  vncls = "none"
+  vnID = "none"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "none"			
+  pbID = "none"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "none"			//The Framenet class to which the unit belongs
+  onID = "none"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "ilgilen"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A1 = I				//mapping given in the Propbank corresponding entry
+   A2 = II
+   A3 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "NOM"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+  
+
+
+"iste_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "25"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    vncls = "want"
+    vnID = "32.1-1-1"      //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "want"     
+    pbID = "01"        //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Desiring"      //The Framenet class to which the unit belongs
+    onID = "want-v.1"    //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    lemma = "iste"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     gpID = "1"        //id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+     A3 = IV
+     A4 = V
+      I = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      II = {				//second argument
+      	pos = "NN"
+      	dpos = "N"
+      	//prep = 
+      	case = "ACC"
+      	ssyntrel = "OBJECT"
+     }
+      III = {				//third argument
+      	pos = "NN"
+      	dpos = "N"
+        //prep = 
+      	case = "ABL"
+      	ssyntrel = "OBJECT"
+      }
+    }
+  }
+
+
+
+
+
+"konu_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "26"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "subject-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "subject"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "konu"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "NOM"       
+      ssyntrel = "POSSESSOR"     
+    }
+  }
+}
+
+"medya_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "27"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "medium-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "medium"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  lemma = "medya"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "NOM"       //for case lggs: German, Polish, Turkish
+      ssyntrel = "CLASSIFIER"     //for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+  }
+}
+
+  
+
+
+"oku_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "28"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    pos = "VB"				// posibles valores: CC, CD, DT, IN, JJ, NN, NP, PP, RB, SYM, UH, VB, VH, VV, WP, formula  (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    dpos = V				// posibles valores: V, N, A, aDV
+    spos = "verb"			//posibles valores: adjective, adverb, auxiliary, conjunction, copula, determiner, foreign_word, formula, interjection, interrogative_pronoun, noun, number, percentage, preposition, pronoun, 
+					//proper_noun, punctuation, relative_pronoun, roman_numeral, verb (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    vncls = "learn"
+    vnID = "14-1"      //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "read"     
+    pbID = "01"        //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Reading"      //The Framenet class to which the unit belongs
+    onID = "read-v.1"    //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    lemma = "oku"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+       gpID = "1"       //id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+     A3 = IV
+      I = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      II = {				//second argument
+      	pos = "NN"
+      	dpos = "N"
+      	//prep = 
+      	case = "ACC"
+      	ssyntrel = "OBJECT"
+     }
+    }
+  }
+
+
+
+
+
+  
+
+
+"ol_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "29"			
+    pos = "VB"				// posibles valores: CC, CD, DT, IN, JJ, NN, NP, PP, RB, SYM, UH, VB, VH, VV, WP, formula  (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    dpos = V				// posibles valores: V, N, A, aDV
+    spos = "verb"			//posibles valores: adjective, adverb, auxiliary, conjunction, copula, determiner, foreign_word, formula, interjection, interrogative_pronoun, noun, number, percentage, preposition, pronoun, 
+					//proper_noun, punctuation, relative_pronoun, roman_numeral, verb (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    vncls = "representation"
+    vnID = "110.1"     //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "be"      
+    pbID = "01"       //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Performers_and_roles"      //The Framenet class to which the unit belongs
+    onID = "be-v.1"   //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    lemma = "ol"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+      gpID = "1"        //id del gp (for now, just "1")
+     A1 = I				//mapping given in the Propbank corresponding entry
+     A2 = II
+      I = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      II = {				
+      	//prep = 
+      	ssyntrel = "OBJECT"
+     }
+
+    }
+  }
+
+
+
+
+
+"özür_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "30"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "none"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "apology"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "özür"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "GEN"       
+      ssyntrel = "SUBJECT"
+    }
+
+  }
+}
+
+"plan_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "31"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "plan"			//same as above; if no information, use "none" as value
+  pbID = "01"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "plan-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "plan"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "plan"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A0 = I				//mapping given in the Propbank corresponding entry
+    A1 = II
+    A2 = III
+    I = {       //first argument
+      pos = "NN"
+      case = "GEN"       
+      ssyntrel = "POSSESSOR"     
+    }
+    II = {				//second argument
+      pos = "NN"
+      case = "NOM"
+      ssyntrel = "CLASSIFIER"
+    }
+
+  }
+}
+
+"sev_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "32"
+    vncls = "admire"
+    vnID = "31.2-1"      //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "like"     
+    pbID = "01"        //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    //fn = "xxx"      //Framenet link broken
+    onID = "like-v.1"    //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)    
+    lemma = "sev"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     gpID = "1"        //id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+      I = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      II = {        //second argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "ACC"
+        ssyntrel = "OBJECT"
+      }
+    }
+  }
+
+
+
+
+
+"sevin_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "33"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  Eng_tr = "be_pleased"
+  vncls = "xxx"
+  vnID = "xxx"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "xxx"			
+  pbID = "xxx"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "xxx"			//The Framenet class to which the unit belongs
+  onID = "xxx-v.x"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "sevin"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A1 = I				//mapping given in the Propbank corresponding entry
+   A2 = II
+   A3 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+
+  }
+}
+
+  
+
+
+"söyle_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "34"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    vncls = "say"
+    vnID = "37.7-1-1"      //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "say"     
+    pbID = "01"        //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Statement"      //The Framenet class to which the unit belongs
+    onID = "say-v.1"    //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    lemma = "söyle"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     gpID = "1"        //id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+     A3 = IV
+      I = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      II = {				//second argument
+      	pos = "NN"
+      	dpos = "N"
+      	//prep = 
+      	case = "ACC"
+      	ssyntrel = "OBJECT"
+     }
+      III = {				//third argument
+      	pos = "NN"
+      	dpos = "N"
+        //prep = 
+      	case = "DAT"
+      	ssyntrel = "OBJECT"
+      }
+    }
+  }
+
+
+
+
+
+
+
+"sıcaklık_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "35"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "none"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "temperature"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "sıcaklık"			//forma sin declinar de la unidad léxica
+  countable = "no"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+     
+      ssyntrel = "MODIFIER"     
+    }
+
+  }
+}
+
+"tahmin_et_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "36"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"
+  vnID = "none"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "predict"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Predicting"			//The Framenet class to which the unit belongs
+  onID = "predict-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "tahmin_et"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"tartış_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "37"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"
+  vnID = "none"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "discuss"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Discussion"			//The Framenet class to which the unit belongs
+  onID = "discuss-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "tartış"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     case = "INS"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"unut_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "38"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"
+  vnID = "none"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "forget"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Remembering_to_do"			//The Framenet class to which the unit belongs
+  onID = "forget-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  lemma = "unut"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       //for case lggs: German, Polish, Turkish
+     ssyntrel = "SUBJECT"     //for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"üzül_VB_01":_verb_ {   //lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "39"     //cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "marvel"
+  vnID = "31.3-3"     //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "grieve"      
+  pbID = "01"       //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "none"     //The Framenet class to which the unit belongs
+  onID = "none"   //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =        //Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "üzül"      //forma sin declinar de la unidad léxica
+  gp = {        //government pattern
+   gpID = "1"       //id del gp (for now, just "1")
+   A0 = I       //mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {        //second argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+
+  }
+}
+
+"ver_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "40"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "give"
+  vnID = "13.1-1"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "give"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Expressing_publicly"			//The Framenet class to which the unit belongs
+  onID = "give-v.2"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  lemma = "ver"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       //for case lggs: German, Polish, Turkish
+     ssyntrel = "SUBJECT"     //for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     case = "DAT"
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"yap_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "41"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "build"
+  vnID = "26.1-1"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "make"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Building"			//The Framenet class to which the unit belongs
+  onID = "make-v.2"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  lemma = "yap"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+   A3 = IV
+    I = {				//first argument
+     pos = "NN"
+     //prep = 
+     case = "NOM"				//for case lggs: German, Polish, Turkish
+     ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//second argument
+     pos = "NN"
+     //prep = 
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+    III = {				//third argument
+     pos = "NN"
+     prep = "için"
+     case = ??¿?¿??¿?¿?¿?¿
+     ssyntrel = "OBJECT"
+    }
+  }
+}
+
+"yardımcı_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "42"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    base = "yardım"
+    vncls = "help"			//same as above; if no information, use "none" as value
+    vnID = "72.1-1-1"			//same as above; if no information, use "none" as value
+    pbcls = "help"			//same as above; if no information, use "none" as value
+    pbID = "01"			//same as above; if no information, use "none" as value
+    fn = "Assistance"				//same as above; if no information, use "none" as value
+    onID = "help-v.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+    nbcls = "help"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+    nbID = "01"				//... and here, the sense received
+    bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+    lemma = "yardımcı"			//forma sin declinar de la unidad léxica
+    countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+    gp = {				//government pattern
+     gpID = 1				//id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+      I = {				//first argument
+        pos = "NN"		
+    	case = 	"DAT"			//for case lggs: German, Polish, Turkish
+     }
+        II = {                //first argument
+        pos =  "NN"             
+        case =  "LOC"            //for case lggs: German, Polish, Turkish
+     }
+    }
+  }
+
+"walk_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "43"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  base = "yürü"
+  vncls = "run"			//same as above; if no information, use "none" as value
+  vnID = "51.3.2-2-1"			//same as above; if no information, use "none" as value
+  pbcls = "walk"			//same as above; if no information, use "none" as value
+  pbID = "01"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "walk-n.1"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "walk"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  lemma = "yürüyüş"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A0 = I				//mapping given in the Propbank corresponding entry
+    A1 = II
+    A2 = III
+    I = {				//first argument
+      pos = "NN"				
+      case = "GEN"				//for case lggs: German, Polish, Turkish
+      ssyntrel = 	"POSSESSOR"		//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+    }
+    II = {				//walk to where
+      pos = "NN"
+      case = "DAT"
+    }
+    III = {				//walk from where
+      pos = "NN"
+      case = "ABL"
+    }
+  }
+}
+
+"zevk_NN_01":_noun_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "44"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "none"			//same as above; if no information, use "none" as value
+  vnID = "none"			//same as above; if no information, use "none" as value
+  pbcls = "none"			//same as above; if no information, use "none" as value
+  pbID = "none"			//same as above; if no information, use "none" as value
+  fn = "none"				//same as above; if no information, use "none" as value
+  onID = "pleasure-n.2"		//In this case, the information about the class and the ID itself is NOT divided; if no information, use "none" as value
+  nbcls = "pleasure"		//Nombank (FROM nombank V.01 => TO DOWNLOAD); here, the class
+  nbID = "01"				//... and here, the sense received
+  //bnID =				//Babelnet (sólo si no hay ningún valor en los anteriores)
+  lemma = "zevk"			//forma sin declinar de la unidad léxica
+  countable = "yes"			//if the noun is countable, add "yes"; if not, add "no"
+  gp = {				//government pattern
+    gpID = 1				//id del gp (for now, just "1")
+    A1 = I				//mapping given in the Propbank corresponding entry
+    A2 = II
+    A3 = III
+    I = {       //first argument
+      pos = "NN"
+    }
+    II = {				//second argument
+      pos = "NN"
+    }
+  }
+}
+

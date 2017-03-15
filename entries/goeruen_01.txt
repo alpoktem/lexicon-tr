@@ -1,0 +1,40 @@
+  
+
+
+"görün_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+    entryID = "1"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+    pos = "VB"				// posibles valores: CC, CD, DT, IN, JJ, NN, NP, PP, RB, SYM, UH, VB, VH, VV, WP, formula  (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    dpos = "V"				// posibles valores: V, N, A, aDV
+    spos = "verb"			//posibles valores: adjective, adverb, auxiliary, conjunction, copula, determiner, foreign_word, formula, interjection, interrogative_pronoun, noun, number, percentage, preposition, pronoun, 
+					//proper_noun, punctuation, relative_pronoun, roman_numeral, verb (THINK ABOUT IT... IT IS FIXED FOLLOWING ENG?? OR IT DEPENDS ON EACH LGG/CORPUS??)
+    vncls = "seem"
+    vnID = "109-1"     //The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+    pbcls = "look"      
+    pbID = "02"       //The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+    fn = "Appearance"      //The Framenet class to which the unit belongs
+    onID = "look-v.2"   //In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+    lemma = "görün"			//forma sin declinar de la unidad léxica
+    gp = {				//government pattern
+     gpID = "1"       //id del gp (for now, just "1")
+     A0 = I				//mapping given in the Propbank corresponding entry
+     A1 = II
+     A2 = III
+      I = {				//first argument
+        pos = "NN"
+        dpos = "N"
+        //prep = 
+        case = "NOM"				//for case lggs: German, Polish, Turkish
+        ssyntrel = "SUBJECT"			//for Spanish, Polish and German; evaluate/think for Turkish and Arabic
+      }
+      II = {				//second argument
+      	pos = "JJ"
+      	dpos = "A"
+      	//prep = 
+      	ssyntrel = "OBJECT"
+     }
+    }
+  }
+
+
+
+

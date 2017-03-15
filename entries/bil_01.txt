@@ -1,0 +1,27 @@
+"bil_VB_01":_verb_ {		//lemma_pos_sense (following PB or, if not present in PB, use 01, 02, 03 etc. by default): _spos_
+  entryID = "1"			//cada entrada tiene su valor individual (random). Si hay entradas que deben introducirse entre dos entradas ya existentes, el valor será decimal (10.5, 10.7, etc.)
+  vncls = "consider"
+  vnID = "29.9-1-1"			//The Verbnet information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained)
+  pbcls = "know"			
+  pbID = "01"				//The Propbank information is divided into these two attributes: the class and the id itself (it's as simple as the decomposition of the info obtained when we have disambiguated the unit)
+  fn = "Awareness"			//The Framenet class to which the unit belongs
+  onID = "know-v.1"		//In this case, the information about the class and the ID itself is NOT divided  (THESE LAST FOUR VALUES COME FROM http://verbs.colorado.edu/verb-index/search.php)
+  //bnID =				//Babelnet (UNCOMMENT AND FILL IF THE ABOVE DOESN'T EXIST)
+  lemma = "bil"			//forma sin declinar de la unidad léxica
+  gp = {				//government pattern
+   gpID = "1"				//id del gp (for now, just "1")
+   A0 = I				//mapping given in the Propbank corresponding entry
+   A1 = II
+   A2 = III
+    I = {       //first argument
+     pos = "NN"
+     case = "NOM"       
+     ssyntrel = "SUBJECT"    
+    }
+    II = {				//second argument
+     pos = "NN"
+     case = "ACC"
+     ssyntrel = "OBJECT"
+    }
+  }
+}

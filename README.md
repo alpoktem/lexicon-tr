@@ -1,0 +1,2 @@
+# lexicon-turkish
+Turkish lexicon

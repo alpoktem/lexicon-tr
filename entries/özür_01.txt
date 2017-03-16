@@ -19,7 +19,7 @@
     I = {       //first argument
       pos = "NN"
       case = "GEN"       
-      ssyntrel = "SUBJECT"
+      ssyntrel = "POSSESSOR"
     }
 
   }

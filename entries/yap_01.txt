@@ -28,7 +28,7 @@
     III = {				//third argument
      pos = "NN"
      prep = "için"
-     case = ??¿?¿??¿?¿?¿?¿
+     case = "GEN"
      ssyntrel = "OBJECT"
     }
   }

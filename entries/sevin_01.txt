@@ -21,7 +21,7 @@
     }
     II = {				//second argument
      pos = "NN"
-     case = "ACC"
+     case = "DAT"
      ssyntrel = "OBJECT"
     }
 

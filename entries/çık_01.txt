@@ -13,7 +13,7 @@
    A0 = I				//mapping given in the Propbank corresponding entry
    A1 = II
    A3 = III
-   A4 = III
+   A4 = IV
     I = {				//first argument
      pos = "NN"
      case = "NOM"				//for case lggs: German, Polish, Turkish
